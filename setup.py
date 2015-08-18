@@ -28,6 +28,8 @@ __irequires__ = [
     'python_dateutil==2.4.2',
     # FIXME Kerberos breaks docs building, need to investigate later
     #'kerberos==1.2.2',
+    'requests==2.7.0',
+    'requests-kerberos==0.7.0',
 ]
 pip_src = 'https://pypi.python.org/packages/source'
 __deplinks__ = []
